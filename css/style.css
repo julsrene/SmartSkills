@@ -1,0 +1,81 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,300i,400,400i,500,500i,600,600i&display=swap');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 200px;
+	color: #591420;
+}
+
+h1 {
+	font-size: 40px;
+	color: #d96459;
+}
+
+.navlist {
+   padding-left: 0;
+}
+
+.navlist li
+{
+    display: inline; /* brings nav elements up next to each other */
+    list-style-type: none; /* removes the bullet points */
+    padding-right: 20px; /* spaces them out from each other. Adjust to suit your needs */
+}
+
+a {
+	text-decoration: none;
+	color: burlywood;
+}
+
+a:visited{
+	color: chocolate;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: white;
+}
+
+.ss_title {
+	margin-bottom: 0;
+}
+
+
+
+.ss_title {
+	font-size: 16px;
+	font-weight: 700;
+	color: #b34c04;
+}
+
+.ss_content {
+	font-weight: 300;
+	margin-block-start: 0rem;
+}
+
+.featured {
+	border: thin;
+	border-color: #d96459;
+}
+
+.f_title {
+	margin-block-end: 0rem;
+	color: #b34c04;
+}
+
+.about_content {
+	margin-block-start: 0rem;
+}
+
+.retri_title {
+	color: #b34c04;
+}
+
+.smartskills_grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 2rem;
+}
